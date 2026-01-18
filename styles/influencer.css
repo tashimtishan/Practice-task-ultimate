@@ -1,0 +1,43 @@
+
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* universal selector done */
+
+
+/* work for header section */
+header{
+    padding: 40px 50px;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #3A3A3A;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 1rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a img{
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+}
+/* work for header section done */
