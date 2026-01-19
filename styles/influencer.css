@@ -161,3 +161,43 @@ padding: 40px 80px;
         grid-template-columns: 1fr;
     }
 }
+/* collection section work ends here */
+
+
+/* features section work starts here */
+.featured{
+    display: flex;
+    max-width: 1110px;
+    gap: 96px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 60px 80px;
+
+}
+.featured-text{
+    max-width: 610px;
+}
+.featured-text h2{
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.featured-text p{
+    max-width: 501px;
+    margin-bottom: 16px;
+}
+.new-button{
+    background-color: #E02C6D;
+    padding: 10px 56px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+@media screen and (max-width: 576px){
+    .featured{
+        flex-direction: column;
+        text-align: center;
+    }
+}
